@@ -1,0 +1,27 @@
+.head-page{
+    background: #4792fe;
+}
+
+.myToast{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 1rem;
+    animation: alert 1.5s cubic-bezier(0, 0, 0.71, 1) forwards;
+}
+
+@keyframes alert{
+    0% {
+        top: 70px;
+        opacity: 0;
+    }
+    80%{
+        top: 20px;
+        opacity: 1;
+    }
+    100%{
+        top: 20px;
+        opacity: 0;
+    }
+
+}
